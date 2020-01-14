@@ -1,0 +1,335 @@
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	max-width:100%;
+}
+h1 {
+	margin: 0;
+	font-size: 3vw;
+}
+.navbar {
+	text-align: center;
+	color: white;
+	overflow: hidden;
+	position: fixed; /* Set the navbar to fixed position */
+	background-color: black;
+	opacity: 0.9;
+	height: 10%;
+	width: 100%;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+  	z-index: 1000;
+}
+.spacer {
+	height: 10%;
+	width: 100%;
+}
+.space {
+	height: 10%;
+	width: 100%;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+}
+.c2 {
+	float: left;
+	height: 90%;
+	width: 50%;
+}
+.c3 {
+	float: left;
+	height: 90%;
+	width: 33%;
+}
+.c3special {
+	float: left;
+	height: 90%;
+	width: 34%;
+}
+.r4 {
+	float: left;
+	height: 25%;
+	width: 100%;
+}
+.cell {
+	background-color: #555;
+	box-sizing: border-box;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+  	color: white;
+}
+.c4cell {
+	float: left;
+	height: 100%;
+	width: 25%;
+}
+.c4 {
+	float: left;
+	height: 90%;
+	width: 25%;
+}
+.c5 {
+	float: left;
+	height: 90%;
+	width: 20%;
+}
+.c05 {
+	float: left;
+	height: 100%;
+	width: 5%;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+}
+.c90 {
+	float: left;
+	height: 100%;
+	width: 90%;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+}
+.menu {
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+	width: 100%;
+	height: 100%;
+	font-size: 3vw;
+	text-decoration: none;
+	color: white;
+}
+.menu:hover {
+	background-color: #333;
+}
+.menu:active {
+	background-color: #111;
+}
+.landing {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.landpic {
+	height: 100%;
+	width: 100%;
+}
+.inquire {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+	font-size: 2vw;
+	text-decoration: none;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 25px;
+}
+.inquire:hover {
+	background-color: white;
+	color: black;
+}
+.inquire:active {
+	background-color: black;
+	color: white;
+}
+.page {
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+}
+.page2 {
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+.instructor {
+	width: 100%;
+}
+.logo {
+	width: 100%;
+}
+.scroll {
+	margin: 1%;
+	overflow: auto;
+	height: 90%;
+	background-color: white;
+	border-radius: 10px;
+}
+.title {
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+  	height: 10%;
+}
+.bar {
+	text-align: center;
+	height: 10%;
+	display : flex;
+  	align-items : center;
+  	justify-content: center;
+}
+.redbelt {
+	background-color: darkred;
+	color: white;
+}
+.sifu {
+	background-color: black;
+	color: white;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 5px;
+	border-right: none;
+	border-left: none;
+	border-color: #bd0000;
+}
+.sigung {
+	background-color: darkred;
+	color: white;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 25px;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-color: white;
+}
+.sigung2 {
+	background-color: darkred;
+	color: white;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 25px;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-color: black;
+}
+.professor {
+	background-color: darkred;
+	color: white;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 5px;
+	border-right: none;
+	border-left: none;
+	border-color: #222;
+}
+.blackbelt {
+	background-color: black;
+	color: white;
+}
+.brownbelt {
+	background-color: #944b2e;
+	color: white;
+}
+.greenbelt {
+	background-color: #15691a;
+	color: white;
+}
+.bluebelt {
+	background-color: #1161ab;
+	color: white;
+}
+.purplebelt {
+	background-color: #661573;
+	color: white;
+}
+.whitebelt {
+	background-color: white;
+	color: black;
+}
+.kblackbelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: black;
+}
+.kbrownbelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: #944b2e;
+}
+.kgreenbelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: #15691a;
+}
+.kbluebelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: #1161ab;
+}
+.kpurplebelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: #661573;
+}
+.korangebelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: orange;
+}
+.kyellowbelt {
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 20px;
+	border-right: none;
+	border-left: none;
+	border-color: yellow;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
